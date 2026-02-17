@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1061760279132",
+    "project_id": "izcfinance",
+    "storage_bucket": "izcfinance.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1061760279132:android:8c17c041a3f344b468fc99",
+        "android_client_info": {
+          "package_name": "com.example.hello"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA610yoLEJBP5S3H8Vjvy4u1WAKnu2247g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
