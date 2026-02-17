@@ -28,7 +28,7 @@ class _SidebarWidgetState extends State<SidebarWidget> {
   Widget build(BuildContext context) {
     final screenWidth = MediaQuery.of(context).size.width;
 
-    // Collapsed sidebar when screen width is 1199px or less
+    // Collapsed sidebar when screen width is
     final isCollapsed = screenWidth >= 600 && screenWidth <= 1199;
     final sidebarWidth = isCollapsed ? 70.0 : 220.0;
 
