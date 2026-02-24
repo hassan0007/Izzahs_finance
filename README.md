@@ -1,16 +1,33 @@
-# hello
+## 💹 Business Financial Tracker & Dashboard
+A robust Flutter-based financial management system for tracking multi-channel income and expenditures. This application simplifies bookkeeping by providing instant visualizations of financial health and detailed transaction auditing.
 
-A new Flutter project.
+## ✨ Key Features
+## 📈 Intelligent Financial Dashboard
+Real-time Overview: Monitor "Cash" vs. "Online/Bank" balances for both income and expenses directly from the main view.
 
-## Getting Started
+Dynamic Timeframe Filtering: Toggle the dashboard view to analyze financial performance for Today, This Week, This Month, or This Year.
 
-This project is a starting point for a Flutter application.
+Visual Trends: The central graph dynamically compares total Income vs. total Expense across your selected timeframe to show net profitability.
 
-A few resources to get you started if this is your first Flutter project:
+Running Balance: Features a live "Running Balance" widget that calculates your current financial position as transactions are added.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 💸 Income & Expense Management
+Dual Entry Points: Add new transactions quickly from the dashboard or through dedicated Income and Expense management pages.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Category Visualizations: Dedicated pages feature Pie Charts that break down exactly where money is coming from or going.
+
+Percentage Breakdown: Each category in the pie chart displays its relative percentage of the total pool for better budget analysis.
+
+Searchable History: High-performance search bars allow you to filter recent transactions by title or description.
+
+## 🏦 Multi-Channel Tracking
+Cash Tracking: Monitor physical cash on hand for in-person transactions.
+
+Online/Bank Sync: Track digital payments sent to or received from bank accounts.
+
+## 🛠️ Tech Stack
+Frontend: Flutter (Cross-platform UI).
+
+Database: Firebase Realtime Database for live financial syncing.
+
+Data Visualization: Fl_chart for dynamic pie and line graphs.
